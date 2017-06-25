@@ -1,0 +1,120 @@
+.Weather .weatherContainer {
+  width: 880px;
+  margin: 55px auto 0 auto;
+}
+
+.Weather .weatherContainer .weatherBox {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin: 0 6px 6px 6px;
+  background: orange;
+  border-radius: 2px;
+  height: 115px;
+  width: 280px;
+  display: inline-block;
+  position: relative;
+}
+
+.Weather .weatherContainer .weatherBox .grid {
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+}
+
+.Weather .weatherContainer .weatherBox .grid:nth-child(1) {
+  float: left;
+}
+
+.Weather .weatherContainer .weatherBox .grid:nth-child(2) {
+  float: left;
+  text-align: center;
+  width: 155px
+}
+
+.Weather .weatherContainer .weatherBox .grid:nth-child(3) {
+  float: right;
+}
+
+.Weather .weatherContainer .weatherBox .weatherIcon {
+  width: 90px;
+  margin: 12px 0 0 10px;
+}
+
+.Weather .weatherContainer .weatherBox .cityName {
+  font-weight: bold;
+  color: #fff;
+}
+
+.Weather .weatherContainer .weatherBox .cityTemp {
+  color: #fff;
+  font-size: 40px;
+  margin: 20px 0 5px 0;
+}
+
+.Weather .weatherContainer .weatherBox .cityCel {
+  margin: 0 0 20px 2px;
+  width: 12px;
+}
+
+.Weather .weatherContainer .weatherBox .deleteCity {
+  cursor: pointer;
+  margin: 6px 6px 0 0;
+}
+
+
+
+
+
+@media screen and (max-width: 990px) {
+
+  .Weather .weatherContainer {
+    width: 600px;
+  }
+
+}
+
+@media screen and (max-width: 620px) {
+
+  .Weather .weatherContainer {
+    width: 280px;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+
+  .Weather .weatherContainer {
+    width: 250px;
+    margin: 20px auto 0 auto;
+  }
+
+  .Weather .weatherContainer .weatherBox {
+    width: 250px;
+    margin: 0 0 6px 0;
+  }
+
+  .Weather .weatherContainer .weatherBox .grid:nth-child(2) {
+    width: 145px;
+  }
+
+  .Weather .weatherContainer .weatherBox .weatherIcon {
+    width: 70px;
+  }
+
+  .Weather .weatherContainer .weatherBox .cityName {
+    margin-left: -65px;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  .Weather .weatherContainer .weatherBox .cityTemp {
+    font-size: 60px;
+    margin: 15px 0 0 8px;
+  }
+
+  .Weather .weatherContainer .weatherBox .cityCel {
+    width: 15px;
+    margin: 0 0 30px 2px;
+  }
+
+}
